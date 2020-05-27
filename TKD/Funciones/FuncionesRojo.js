@@ -1,18 +1,3 @@
-var DNI = prompt('Ingrese DNI', '');
-
-var Martin = {
-	DNI : 35732202,
-};
-
-if (DNI == Martin.DNI) 
-
-var DNI = prompt('Ingrese DNI', '');
-
-var Maximiliano = {
-	DNI : 25687339,
-};
-
-if (DNI == Martin.DNI || DNI == Maximiliano.DNI) {
 var Contador = 0;
 
 var Verificar1 = document.getElementById('Verificar');
@@ -301,9 +286,4 @@ function Verificacion9(){
 			}
 		}
 	}
-}
-}
-else {
-	alert("Su graduacion es menor");
-	location.href = "index.html";
 }
