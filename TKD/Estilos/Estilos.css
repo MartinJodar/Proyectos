@@ -1,0 +1,192 @@
+.TKD{
+	width: 200px;
+	height: auto;
+}
+
+.ITF{
+	width: 400px;
+	height: auto;
+}
+
+.Hwarang{
+	width: 200px;
+	height: auto;
+}
+
+.Encabezado{
+	text-align: center;
+}
+
+.Blanco{
+	width: 100px;
+	height: 5px;
+	background-color: white;
+	border-color: black;
+	border: groove;
+	display: inline-block;
+}
+
+.BlancoAmarillo{
+	width: 100px;
+	height: 5px;
+	background-color: white;
+	border-color: black;
+	border: groove;
+	display: inline-block;
+}
+
+.PA{
+	width: 20px;
+	height: 5px;
+	background-color: yellow;
+}
+
+.Amarillo{
+	width: 100px;
+	height: 5px;
+	background-color: yellow;
+	border-color: black;
+	border: groove;
+	display: inline-block;
+}
+
+.AmarilloVerde{
+	width: 100px;
+	height: 5px;
+	background-color: yellow;
+	border-color: black;
+	border: groove;
+	display: inline-block;
+}
+
+.PV{
+	width: 20px;
+	height: 5px;
+	background-color: green;
+}
+
+.Verde{
+	width: 100px;
+	height: 5px;
+	background-color: green;
+	border-color: black;
+	border: groove;
+	display: inline-block;
+}
+
+.VerdeAzul{
+	width: 100px;
+	height: 5px;
+	background-color: green;
+	border-color: black;
+	border: groove;
+	display: inline-block;
+}
+
+.PAZ{
+	width: 20px;
+	height: 5px;
+	background-color: blue;
+}
+
+.Azul{
+	width: 100px;
+	height: 5px;
+	background-color: blue;
+	border-color: black;
+	border: groove;
+	display: inline-block;
+}
+
+.AzulRojo{
+	width: 100px;
+	height: 5px;
+	background-color: blue;
+	border-color: black;
+	border: groove;
+	display: inline-block;
+}
+
+.PR{
+	width: 20px;
+	height: 5px;
+	background-color: red;
+}
+
+.Rojo{
+	width: 100px;
+	height: 5px;
+	background-color: red;
+	border-color: black;
+	border: groove;
+	display: inline-block;
+}
+
+.RojoNegro{
+	width: 100px;
+	height: 5px;
+	background-color: red;
+	border-color: black;
+	border: groove;
+	display: inline-block;
+}
+
+.PN{
+	width: 20px;
+	height: 5px;
+	background-color: black;
+}
+
+.Introduccion{
+	margin-top: 75px;
+	text-align: center;
+	font-family: 'Baloo 2', cursive;
+	font-size: 20px;
+}
+
+.P1{
+	text-align: center;
+	border: solid;
+	border-color: black;
+	font-family: 'Baloo 2',cursive;
+}
+
+ul{
+	list-style: none;
+	text-align: left;
+	display: inline-block;
+}
+
+.Checked{
+	margin: 10px;
+}
+
+.Correcto{
+	color: green;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+}
+
+.Incorrecto{
+	color: red;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+}
+
+.Boton{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+}
+
+.Cinturon{
+	text-align: center;
+	margin-top: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.BotonCinto{
+	margin-left: 600px;
+	margin-top: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
