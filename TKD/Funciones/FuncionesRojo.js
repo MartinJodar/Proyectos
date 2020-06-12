@@ -287,3 +287,20 @@ function Verificacion9(){
 		}
 	}
 }
+
+var Home = document.getElementById('Home');
+
+Home.addEventListener("click", Volver);
+
+function Volver(){
+	location.href = "index.html";
+}
+
+
+var Siguiente = document.getElementById('Siguiente');
+
+Siguiente.addEventListener("click", Avanzar);
+
+function Avanzar() {
+	location.href = "PuntaNegra.html"
+}
