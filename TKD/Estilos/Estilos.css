@@ -5,6 +5,16 @@
 	margin-right: auto;
 }
 
+@media only screen and (max-width: 480px) {
+.TKD {
+font-size: 14px;
+width: 100%;
+min-height: 480px;
+margin-right: auto;
+margin-left: auto;
+}
+}
+
 .ITF{
 	width: 125px;
 	height: auto;
@@ -12,11 +22,31 @@
 	margin-right: auto;
 }
 
+@media only screen and (max-width: 480px) {
+.ITF {
+font-size: 14px;
+width: 100%;
+min-height: 480px;
+margin-right: auto;
+margin-left: auto;
+}
+}	
+
 .Hwarang{
 	width: 75px;
 	height: auto;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+@media only screen and (max-width: 480px) {
+.Hwarang {
+font-size: 14px;
+width: 100%;
+min-height: 480px;
+margin-right: auto;
+margin-left: auto;
+}
 }
 
 .Encabezado{
