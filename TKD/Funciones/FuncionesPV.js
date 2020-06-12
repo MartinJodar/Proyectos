@@ -17,7 +17,7 @@ function Verificacion1(){
 					P.textContent = "O Correcto";
 					padre.appendChild(P);
 					Contador++;
-					Respuesta1.innerHTML = "Respuestas correctas "+Contador+" /6";
+					Respuesta1.innerHTML = "Respuestas correctas "+Contador+" /5";
 			}
 			else {
 				var padre = document.getElementById('Checked1');
@@ -26,7 +26,7 @@ function Verificacion1(){
 					P.className = "Incorrecto";
 					P.textContent = "X Incorrecto";
 					padre.appendChild(P);
-					Respuesta1.innerHTML = "Respuestas correctas "+Contador+" /6";
+					Respuesta1.innerHTML = "Respuestas correctas "+Contador+" /5";
 			}
 		}
 	}
@@ -49,7 +49,7 @@ function Verificacion2(){
 				P.textContent = "O Correcto";
 				padre.appendChild(P);
 				Contador++;
-				Respuesta2.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta2.innerHTML = "Respuestas correctas "+Contador+" /5";
 			}
 			else {
 					var padre = document.getElementById('Checked2');
@@ -58,7 +58,7 @@ function Verificacion2(){
 					P.className = "Incorrecto";
 					P.textContent = "X Incorrecto";
 					padre.appendChild(P);
-					Respuesta2.innerHTML = "Respuestas correctas "+Contador+" /6";
+					Respuesta2.innerHTML = "Respuestas correctas "+Contador+" /5";
 				}	
 		}
 	}	
@@ -81,7 +81,7 @@ function Verificacion3(){
 				P.textContent = "O Correcto";
 				padre.appendChild(P);
 				Contador++;
-				Respuesta3.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta3.innerHTML = "Respuestas correctas "+Contador+" /5";
 			}
 			else {
 				var padre = document.getElementById('Checked3');
@@ -90,7 +90,7 @@ function Verificacion3(){
 				P.className = "Incorrecto";
 				P.textContent = "X Incorrecto";
 				padre.appendChild(P);
-				Respuesta3.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta3.innerHTML = "Respuestas correctas "+Contador+" /5";
 			}
 		}
 	}
@@ -113,7 +113,7 @@ function Verificacion4(){
 					P.textContent = "O Correcto";
 					padre.appendChild(P);
 					Contador++;
-					Respuesta4.innerHTML = "Respuestas correctas "+Contador+" /6";
+					Respuesta4.innerHTML = "Respuestas correctas "+Contador+" /5";
 			}
 			else {
 				var padre = document.getElementById('Checked4');
@@ -122,7 +122,7 @@ function Verificacion4(){
 				P.className = "Incorrecto";
 				P.textContent = "X Incorrecto";
 				padre.appendChild(P);
-				Respuesta4.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta4.innerHTML = "Respuestas correctas "+Contador+" /5";
 			}
 		}
 	}
@@ -145,7 +145,7 @@ function Verificacion5(){
 				P.textContent = "Correcto";
 				padre.appendChild(P);
 				Contador++;
-				Respuesta5.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta5.innerHTML = "Respuestas correctas "+Contador+" /5";
 			}
 			else {
 				var padre = document.getElementById('Checked5');
@@ -154,39 +154,7 @@ function Verificacion5(){
 				P.className = "Incorrecto";
 				P.textContent = "X Incorrecto";
 				padre.appendChild(P);
-				Respuesta5.innerHTML = "Respuestas correctas "+Contador+" /6";
-			}
-		}
-	}
-}
-
-var Verificar6 = document.getElementById('Verificar6');
-
-var Teoria6 = document.getElementsByName("Teoria6");
-
-Verificar6.addEventListener("click", Verificacion6);
-
-function Verificacion6(){
-	for(var i = 0; i < Teoria6.length; i++){
-		if(Teoria6[i].checked){
-			if (Teoria6[i].defaultValue == 1) {
-				var padre = document.getElementById('Checked6');
-				padre.removeChild(Verificar6);
-				var P = document.createElement("p");
-				P.className = "Correcto";
-				P.textContent = "Correcto";
-				padre.appendChild(P);
-				Contador++;
-				Respuesta6.innerHTML = "Respuestas correctas "+Contador+" /6";
-			}
-			else {
-				var padre = document.getElementById('Checked6');
-				padre.removeChild(Verificar6);
-				var P = document.createElement("p");
-				P.className = "Incorrecto";
-				P.textContent = "X Incorrecto";
-				padre.appendChild(P);
-				Respuesta6.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta5.innerHTML = "Respuestas correctas "+Contador+" /5";
 			}
 		}
 	}
@@ -205,5 +173,5 @@ var Siguiente = document.getElementById('Siguiente');
 Siguiente.addEventListener("click", Avanzar);
 
 function Avanzar() {
-	location.href = "PuntaAzul.html"
+	location.href = "Verde.html"
 }

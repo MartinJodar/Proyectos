@@ -17,7 +17,7 @@ function Verificacion1(){
 					P.textContent = "O Correcto";
 					padre.appendChild(P);
 					Contador++;
-					Respuesta1.innerHTML = "Respuestas correctas "+Contador+" /6";
+					Respuesta1.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 			else {
 				var padre = document.getElementById('Checked1');
@@ -26,7 +26,7 @@ function Verificacion1(){
 					P.className = "Incorrecto";
 					P.textContent = "X Incorrecto";
 					padre.appendChild(P);
-					Respuesta1.innerHTML = "Respuestas correctas "+Contador+" /6";
+					Respuesta1.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 		}
 	}
@@ -49,7 +49,7 @@ function Verificacion2(){
 				P.textContent = "O Correcto";
 				padre.appendChild(P);
 				Contador++;
-				Respuesta2.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta2.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 			else {
 					var padre = document.getElementById('Checked2');
@@ -58,7 +58,7 @@ function Verificacion2(){
 					P.className = "Incorrecto";
 					P.textContent = "X Incorrecto";
 					padre.appendChild(P);
-					Respuesta2.innerHTML = "Respuestas correctas "+Contador+" /6";
+					Respuesta2.innerHTML = "Respuestas correctas "+Contador+" /8";
 				}	
 		}
 	}	
@@ -81,7 +81,7 @@ function Verificacion3(){
 				P.textContent = "O Correcto";
 				padre.appendChild(P);
 				Contador++;
-				Respuesta3.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta3.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 			else {
 				var padre = document.getElementById('Checked3');
@@ -90,7 +90,7 @@ function Verificacion3(){
 				P.className = "Incorrecto";
 				P.textContent = "X Incorrecto";
 				padre.appendChild(P);
-				Respuesta3.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta3.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 		}
 	}
@@ -113,7 +113,7 @@ function Verificacion4(){
 					P.textContent = "O Correcto";
 					padre.appendChild(P);
 					Contador++;
-					Respuesta4.innerHTML = "Respuestas correctas "+Contador+" /6";
+					Respuesta4.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 			else {
 				var padre = document.getElementById('Checked4');
@@ -122,7 +122,7 @@ function Verificacion4(){
 				P.className = "Incorrecto";
 				P.textContent = "X Incorrecto";
 				padre.appendChild(P);
-				Respuesta4.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta4.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 		}
 	}
@@ -145,7 +145,7 @@ function Verificacion5(){
 				P.textContent = "Correcto";
 				padre.appendChild(P);
 				Contador++;
-				Respuesta5.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta5.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 			else {
 				var padre = document.getElementById('Checked5');
@@ -154,7 +154,7 @@ function Verificacion5(){
 				P.className = "Incorrecto";
 				P.textContent = "X Incorrecto";
 				padre.appendChild(P);
-				Respuesta5.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta5.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 		}
 	}
@@ -177,7 +177,7 @@ function Verificacion6(){
 				P.textContent = "Correcto";
 				padre.appendChild(P);
 				Contador++;
-				Respuesta6.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta6.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 			else {
 				var padre = document.getElementById('Checked6');
@@ -186,7 +186,71 @@ function Verificacion6(){
 				P.className = "Incorrecto";
 				P.textContent = "X Incorrecto";
 				padre.appendChild(P);
-				Respuesta6.innerHTML = "Respuestas correctas "+Contador+" /6";
+				Respuesta6.innerHTML = "Respuestas correctas "+Contador+" /8";
+			}
+		}
+	}
+}
+
+var Verificar7 = document.getElementById('Verificar7');
+
+var Teoria7 = document.getElementsByName("Teoria7");
+
+Verificar7.addEventListener("click", Verificacion7);
+
+function Verificacion7(){
+	for(var i = 0; i < Teoria7.length; i++){
+		if(Teoria7[i].checked){
+			if (Teoria7[i].defaultValue == 1) {
+				var padre = document.getElementById('Checked7');
+				padre.removeChild(Verificar7);
+				var P = document.createElement("p");
+				P.className = "Correcto";
+				P.textContent = "Correcto";
+				padre.appendChild(P);
+				Contador++;
+				Respuesta7.innerHTML = "Respuestas correctas "+Contador+" /8";
+			}
+			else {
+				var padre = document.getElementById('Checked7');
+				padre.removeChild(Verificar7);
+				var P = document.createElement("p");
+				P.className = "Incorrecto";
+				P.textContent = "X Incorrecto";
+				padre.appendChild(P);
+				Respuesta7.innerHTML = "Respuestas correctas "+Contador+" /8";
+			}
+		}
+	}
+}
+
+var Verificar8 = document.getElementById('Verificar8');
+
+var Teoria8 = document.getElementsByName("Teoria8");
+
+Verificar8.addEventListener("click", Verificacion8);
+
+function Verificacion8(){
+	for(var i = 0; i < Teoria8.length; i++){
+		if(Teoria8[i].checked){
+			if (Teoria8[i].defaultValue == 1) {
+				var padre = document.getElementById('Checked8');
+				padre.removeChild(Verificar8);
+				var P = document.createElement("p");
+				P.className = "Correcto";
+				P.textContent = "Correcto";
+				padre.appendChild(P);
+				Contador++;
+				Respuesta8.innerHTML = "Respuestas correctas "+Contador+" /8";
+			}
+			else {
+				var padre = document.getElementById('Checked8');
+				padre.removeChild(Verificar8);
+				var P = document.createElement("p");
+				P.className = "Incorrecto";
+				P.textContent = "X Incorrecto";
+				padre.appendChild(P);
+				Respuesta8.innerHTML = "Respuestas correctas "+Contador+" /8";
 			}
 		}
 	}
@@ -205,5 +269,5 @@ var Siguiente = document.getElementById('Siguiente');
 Siguiente.addEventListener("click", Avanzar);
 
 function Avanzar() {
-	location.href = "PuntaAzul.html"
+	location.href = "PuntaRoja.html"
 }
