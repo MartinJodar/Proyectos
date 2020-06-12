@@ -1,16 +1,22 @@
 .TKD{
-	width: 200px;
+	width: 75px;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .ITF{
-	width: 400px;
+	width: 125px;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .Hwarang{
-	width: 200px;
+	width: 75px;
 	height: auto;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .Encabezado{
@@ -140,15 +146,16 @@
 .Introduccion{
 	margin-top: 75px;
 	text-align: center;
-	font-family: 'Baloo 2', cursive;
-	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
 }
 
 .P1{
 	text-align: center;
 	border: solid;
 	border-color: black;
-	font-family: 'Baloo 2',cursive;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
 }
 
 ul{
@@ -159,34 +166,62 @@ ul{
 
 .Checked{
 	margin: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
 }
 
 .Correcto{
 	color: green;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .Incorrecto{
 	color: red;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .Boton{
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .Cinturon{
 	text-align: center;
 	margin-top: 30px;
 	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
 }
 
 .BotonCinto{
-	margin-left: 600px;
-	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
+}
+
+.Home{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: red;
+	cursor: pointer;
+	border: solid;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.Siguiente{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: green;
+	cursor: pointer;
+	border: solid;
+	margin-top: 10px;
+	font-size: 18px;
 }
